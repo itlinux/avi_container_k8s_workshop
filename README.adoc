@@ -1,0 +1,15 @@
+== Overview
+This is a workshop to explore kubernetes and docker.
+This workshop will use Docker and KIND
+
+== Getting Started
+The lab are separate and each one will have a folder associated with the tasks.
+
+== Installation
+You can spin up a ubuntu, centos 7, centos 8, on any of the public cloud, or you can use your local Mac, Windows as it is self contained workshop.
+
+== License
+[Apache License 2.0](LICENSE)
+
+== Copyright
+Copyright 2022 VMware Inc.
