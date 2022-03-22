@@ -8,6 +8,12 @@ The lab are separate and each one will have a folder associated with the tasks.
 == Installation
 You can spin up a ubuntu, centos 7, centos 8, on any of the public cloud, or you can use your local Mac, Windows as it is self contained workshop.
 
+For Windows users you can check this link out:
+link:++https://dotnetninja.net/2021/03/running-a-multi-node-kubernetes-cluster-on-windows-with-kind/++[Windows KIND Installation] +
+
+For Mac / Linux users you can follow this link:
+link:++https://k8s.camp/running-kubernetes/kind/++[Running KIND]
+
 == License
 [Apache License 2.0](LICENSE)
 
