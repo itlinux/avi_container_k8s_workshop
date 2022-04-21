@@ -10,6 +10,8 @@ As we get a little more familiar with kind cli, keep in mind that the other tool
 
 NOTE: This will not cover AKO, MAKO, Tanzu but just K8s!
 ====
+Please be aware you will need to be in your home director. If you are not sure just exec cd and press enter. 
+
 Shotcut your typing
 ----
 echo  "alias k=kubectl" >>~/.bashrc
