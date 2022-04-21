@@ -13,7 +13,7 @@ NOTE: This will not cover AKO, MAKO, Tanzu but just K8s!
 Shotcut your typing
 ----
 echo  "alias k=kubectl" >>~/.bashrc
-echo "kubectl completion bash|sed s/kubectl/k/g" >>.bashrc
+echo "source <(kubectl completion bash|sed s/kubectl/k/g)" >>.bashrc
 . .bashrc
 ----
 

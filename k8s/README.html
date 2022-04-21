@@ -474,7 +474,7 @@ This will not cover AKO, MAKO, Tanzu but just K8s!
 <div class="listingblock">
 <div class="content">
 <pre>echo  "alias k=kubectl" &gt;&gt;~/.bashrc
-echo "kubectl completion bash|sed s/kubectl/k/g" &gt;&gt;.bashrc
+echo "source &lt;(kubectl completion bash|sed s/kubectl/k/g)" &gt;&gt;.bashrc
 . .bashrc</pre>
 </div>
 </div>
@@ -1814,6 +1814,15 @@ wordpress-mysql-dd6c4c7c9-mkxfp   1/1     Running   0          39m</pre>
 <pre>localhost:8222</pre>
 </div>
 </div>
+<div class="paragraph">
+<p>Or
+from the cli</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>curl http://127.0.0.1:8222</pre>
+</div>
+</div>
 <div class="listingblock">
 <div class="title">Scale our Pod</div>
 <div class="content">
@@ -1886,7 +1895,7 @@ Thanks</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-03-21 17:53:51 -0700
+Last updated 2022-04-21 15:37:31 -0700
 </div>
 </div>
 </body>
